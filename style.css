@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/mountains.jpg);
+}
+
+.glass {
+    /* background-color: red; */
+    background: linear-gradient(to right, rgb(255, 255, 255, 0.3), rgb(255, 255, 255, 0.7));
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    border-radius: 14px;
+    height: 500px;
+    width: 700px;
+}
+
+.text {
+    color: rgb(27, 24, 24);
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Dela Gothic One', cursive;
+    margin-top: 60px;
+}
